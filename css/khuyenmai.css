@@ -1,0 +1,38 @@
+body {
+    background: #3e3e3f;
+}
+
+.container1{
+    position: relative;
+    top: 30px;
+    width: 80%;
+    margin: 0 auto;
+    height: 550px;
+
+    box-shadow: 5px 5px 15px #fff;
+} 
+.container1>iframe{
+    width: 75%;
+    height: 96%;
+    float: left; 
+    padding-top: 20px;
+}
+.container1>.anh-poster{
+    width: 22%;
+    float: right;
+    height: 100%;
+    padding: 10px 25px 10px 0px ;
+}
+.container1>.anh-poster>a{
+    text-decoration: none;
+    height: 150px;
+    padding: 5px ;
+}
+.container1>.anh-poster>a>img:hover{
+    box-shadow: 5px 5px 20px blue;
+}
+.container1>.anh-poster>a>img{
+width: 100%;
+height: 150px;
+padding: 4px;
+}
